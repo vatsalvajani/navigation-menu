@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  left: 0;
+  overflow-x: hidden;
+}
+.push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn {
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover,
+.btn:active {
+  background-color: #2980b9;
+}
+.backBtn {
+  background-color: #000;
+  font-size: 16px;
+  text-align: right;
+}
+.backBtn:hover {
+  color: #000;
+}
+.menu-right .backBtn {
+  text-align: left;
+}
+.menu-top .backBtn,
+.menu-bottom .backBtn {
+  text-align: left;
+}
+
+.nav-btn-list
+.menu-wrap {background-color: #ccc; padding: 12px 30px; margin-bottom: 10px; display: block; width: 50%; margin: 12px auto; text-align: left;}
+a.menu-wrap:hover{text-decoration: none;}
+.menu-wrap h4{display: inline-block; margin: 0 10px 0 0; color: #000;}
+.menu-wrap .button_container{display: inline-block;}
+
+.button_container {position: relative; height: 17px; width: 25px; cursor: pointer; z-index: 100; -webkit-transition: opacity .25s ease; transition: opacity .25s ease; top: 0px;}
+.button_container span {background: #000;border: none; height: 3px; width: 100%; top: 0;left: 0; -webkit-transition: all .35s ease; transition: all .35s ease; cursor: pointer; position: absolute;}
+.button_container span:nth-of-type(2) {top: 7px;}
+.button_container span:nth-of-type(3) {top: 14px;}
+
+.content-section{margin: 25px;}
+h2.title{text-align: center;margin-bottom: 40px;}
+h4{margin-bottom: 0px;}
+
+.menu {
+  border-right: 1px solid #4a4a4a;
+  background-color: #000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 280px;
+  height: 100%;
+}
+.menu a {
+  display: block;
+  color: #fff;
+  padding: 16px;
+  border-top: 1px solid #4a4a4a;
+  text-decoration: none;
+  position: relative;
+  z-index: 11;
+  transition: all 0.3s ease-in-out;
+}
+.menu a:last-child {
+  border-bottom: 1px solid #4a4a4a;
+}
+.menu a:hover,
+.menu a:active {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+}
+.menu-left {
+  left: -280px;
+}
+.menu-left.left-open {
+  left: 0;
+}
+.menu-right {
+  right: -280px;
+}
+.menu-right.right-open {
+  right: 0;
+}
+.menu-top {
+  width: 100%;
+  top: -102%;
+}
+.menu-top.top-open {
+  top: 0;
+}
+.menu-bottom {
+  width: 100%;
+  top: 100%;
+}
+.menu-bottom.bottom-open {
+  top: 0;
+}
+.push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.push-left {
+  left: -280px;
+}
+.push-left.pushleft-open {
+  left: 0;
+}
+.push-toleft {
+  left: 280px;
+}
+.push-right {
+  right: -280px;
+}
+.push-right .backBtn {
+  text-align: left;
+}
+.push-right.pushright-open {
+  right: 0;
+}
+.push-toright {
+  left: -280px;
+}
+
